@@ -1,0 +1,283 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav1 {
+    display: flex;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+   
+}
+.divleft {
+
+    display: flex;
+}
+.divleft :hover {
+    background-color: rgb(128, 128, 128);
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+.new {
+    display: flex;
+    color:whitesmoke;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 18px;
+    margin: 8px 0px 8px 40px;
+    padding:  5px ;
+}
+.open {
+    display: flex;
+    border: 1px solid rgb(255, 255, 255) ;
+    font-size: 18px;
+    color:whitesmoke;
+    margin: 8px;
+    padding: 5px;
+}
+.new .fa-user-plus {
+  font-size: 18px;
+  padding: 6px;
+  
+}
+.open .fa-right-to-bracket {
+    font-size: 18px;
+    padding: 6px;
+}
+.fa-cart-shopping {
+    color:whitesmoke;
+    font-size: 20px;
+    padding: 15px;
+}
+.fa-magnifying-glass {
+    color:whitesmoke;
+    font-size: 20px;
+    padding: 15px;
+}
+.divright {
+    display: flex;
+}
+.div3 {
+    color:whitesmoke ;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 15px;
+}
+.img1 {
+margin: 10px 25px 0px 0px;
+width: 180px;
+}
+.divright .fa-bars {
+ color: whitesmoke;
+ margin: 20px 40px 0px 0px;
+ font-size: 20px;
+}
+.fa-cubes {
+    padding: 10px;
+}
+.div4 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.div5 {
+    padding: 300px;
+}
+.img2 {
+    position: absolute;
+    z-index: -1;
+}
+.big {
+    font-size: 45px;
+}
+.dollar {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.div6 {
+    position: relative;
+}
+input {
+    width: 680px;
+    height: 60px;    
+}
+.serch {
+    background-color: #52b035;
+    border-color: #52b035;
+    margin: 7px;
+    font-size: 20px;
+    padding: 10px;
+    position: absolute;
+    left: 2px;
+}
+.first {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 200px;
+    color: #52b035;
+    padding-bottom: 100px;
+}
+.div7 {
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+}
+.div8 {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 .div7 .div8 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.section2 .div7 .div8 p {
+    font-size: 30px;
+    color: white
+}
+.div9 {
+    display: flex;
+    justify-content: space-between;
+}
+.div10 {
+    color: #52b035;
+    border: 1px solid #52b035;
+    padding: 7px;
+    font-size: 15px;
+}
+.div10:hover {
+    color: white;
+    background-color: #52b035;
+    transition:  all 0.3s ease;
+    -webkit-transition:  all 0.3s ease;
+    -moz-transition:  all 0.3s ease;
+    -ms-transition:  all 0.3s ease;
+    -o-transition:  all 0.3s ease;
+}
+
+.div11 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.div12 {
+    width: 100%;
+    margin: 10px;
+    text-align: right;
+}
+.div12 img {
+    width: 100%;
+}
+.div12 h5 {
+    margin-top: 5px;
+}
+.div12 p {
+    margin-top: 5px;
+}
+.star {
+    display: flex;
+    color: orange;
+    justify-content: right;
+    margin-top: 5px;
+}
+.section3 {
+    margin-top: 250px;
+}
+.section14 {
+    margin-top: 150px;
+}
+.div13 {
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+}
+.section14 .div13 .div14 .div15 {
+    display: flex;
+    margin: 3px;
+    justify-content: right;
+}
+.fa-cc-paypal {
+    margin: 3px;
+    font-size: 25px;
+}
+.fa-cc-mastercard {
+    margin: 3px;
+    font-size: 25px;
+}
+.fa-cc-visa {
+    margin: 3px;
+    font-size: 25px;
+}
+.fa-facebook {
+    margin: 3px;
+    color: rgb(4, 21, 255);
+    font-size:  25px;
+}
+.fa-twitter{
+    margin: 3px;
+    font-size: 25px;
+    color: #55acee;
+}
+.div14 dt {
+    font-size: 27px;
+}
+.div14 a {
+    text-decoration: none;
+    color: rgb(96, 96, 96);
+    margin: 5px;
+}
+.div14 dt {
+    margin: 5px;
+}
+.section15 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: rgb(196, 196, 196);
+    padding: 20px;
+}
+.div16 {
+    display: flex;
+    justify-content: space-between;
+}
+.div16 p {
+    margin-left: 20px;
+    font-size: 25px;
+    padding-right: 15px;
+}
+.img5 {
+   text-align: center;
+   margin-top: 60px;
+}
+.div17 {
+    display: flex;
+    justify-content: center;
+}
+.div17 dt {
+    display: flex;
+    justify-content: right;
+    font-size: large;
+}
+.div17 dl {
+    margin: 20px;
+}
+.div17 dd {
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.582);
+}
